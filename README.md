@@ -10,7 +10,7 @@ The data we will be working with is not ideal, so it will need to be processed t
 * Deliverable 2: Reducing Data Dimensions Using PCA
 * Deliverable 3: Clustering Cryptocurrencies Using K-means
 * Deliverable 4: Visualizing Cryptocurrencies Results
-## Summary
+## Results
 ### Elbow Curve
 ![kmeans](https://user-images.githubusercontent.com/73972332/113965249-e035f380-97e1-11eb-9310-c6a4c2a7eff0.png)
 
@@ -19,3 +19,11 @@ The data we will be working with is not ideal, so it will need to be processed t
 
 ### 2D ScatterPlot
 ![hvplot](https://user-images.githubusercontent.com/73972332/113965257-e3c97a80-97e1-11eb-8930-7e8c28cb222f.png)
+
+## Summary
+When reduced to three principal components and clustered using the K-Means model, the cryptocurrency data groups as follows:
+
+Class 0: Low PC 1, Medium PC2, Low PC3
+Class 1: Low PC 1, Low PC2, Low PC3
+Class 2: High PC 1, Medium PC2, Low PC3
+Class 3: Low PC1, High PC 2, High PC3
